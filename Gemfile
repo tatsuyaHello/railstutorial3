@@ -18,6 +18,7 @@ gem 'uglifier', '>= 1.3.0'
 
 #add new gem
 gem 'jquery-rails', '4.3.1'
+gem 'bootstrap-sass', '3.3.7'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
@@ -54,6 +55,9 @@ group :development do
 end
 
 group :test do
+  # add new gem
+  gem 'rails-controller-testing', '1.0.2'
+  
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '>= 2.15'
   gem 'selenium-webdriver'
