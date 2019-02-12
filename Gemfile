@@ -19,6 +19,9 @@ gem 'uglifier', '>= 1.3.0'
 #add new gem
 gem 'jquery-rails', '4.3.1'
 gem 'bootstrap-sass', '3.3.7'
+gem 'faker',          '1.7.3'
+gem 'will_paginate', '3.1.6'
+gem 'bootstrap-will_paginate', '1.0.0'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
